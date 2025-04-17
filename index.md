@@ -2,6 +2,142 @@
 layout: default
 ---
 
-# Улюблена українська їжа
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Відомі художники світу</title>
+  <style>
+    /* Скидання відступів та базове форматування */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header, footer {
+      background-color: #444;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    main {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+    }
+    .artist {
+      background-color: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .artist img {
+      width: 100%;
+      display: block;
+    }
+    .artist-content {
+      padding: 1rem;
+    }
+    .artist-content h2 {
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+      color: #222;
+    }
+    .artist-content p {
+      font-size: 0.95rem;
+      text-align: justify;
+    }
+    footer p {
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
 
-Моя улюблена українська їжа — це борщ. Це насправді неймовірна страва, яка приносить відчуття домашнього затишку та тепла. Борщ готують з червоних буряків, картоплі, капусти та моркви, а в кінці додають сметану, щоб він став ще смачнішим і кремовішим. Найкраще його їсти з пампушками, що просочені часниковим соусом — це поєднання дає справжній смак України. Я люблю, коли борщ має насичений колір і затишний, трохи кислуватий смак. Зазвичай я їм його в холодну пору року, і він завжди дарує відчуття затишку та родинної теплоти.
+  <header>
+    <h1>Відомі художники світу</h1>
+  </header>
+
+  <main>
+    <div class="gallery">
+
+      <!-- Леонардо да Вінчі -->
+      <article class="artist">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Mona_Lisa.jpg"
+             alt="Мона Ліза, Леонардо да Вінчі">
+        <div class="artist-content">
+          <h2>Леонардо да Вінчі</h2>
+          <p>
+            Італійський художник, винахідник і вчений епохи Відродження.
+            Його картини, зокрема «Мона Ліза» та «Таємна вечеря», захоплюють
+            світ своєю технікою та глибиною образів.
+          </p>
+        </div>
+      </article>
+
+      <!-- Вінсент ван Гог -->
+      <article class="artist">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/The_Starry_Night.jpg"
+             alt="Зоряна ніч, Вінсент ван Гог">
+        <div class="artist-content">
+          <h2>Вінсент ван Гог</h2>
+          <p>
+            Нідерландський постімпресіоніст, відомий своїми яскравими
+            кольорами та емоційними мазками. «Зоряна ніч» і «Соняшники» —
+            одні з найвідоміших творів в історії мистецтва.
+          </p>
+        </div>
+      </article>
+
+      <!-- Фріда Кало -->
+      <article class="artist">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Frida_Kahlo_%28self_portrait%29.jpg"
+             alt="Автопортрет з терновим намистом, Фріда Кало">
+        <div class="artist-content">
+          <h2>Фріда Кало</h2>
+          <p>
+            Мексиканська художниця-сюрреалістка, відома своїми
+            глибоко особистими автопортретами. Її роботи переповнені
+            символікою та зверненням до теми жіночності і болю.
+          </p>
+        </div>
+      </article>
+
+      <!-- Пабло Пікассо -->
+      <article class="artist">
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/74/Guernica.jpg"
+             alt="Герніка, Пабло Пікассо">
+        <div class="artist-content">
+          <h2>Пабло Пікассо</h2>
+          <p>
+            Іспанський майстер, один з засновників кубізму.
+            Його «Герніка» — потужний антивоєнний шедевр,
+            що лишається актуальним і сьогодні.
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 «Відомі художники світу»</p>
+  </footer>
+
+</body>
+</html>
